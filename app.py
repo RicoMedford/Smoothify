@@ -4,7 +4,7 @@ abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 from flask import Flask, jsonify, render_template, request, redirect
-import requests
+# import requests
 import sys
 sys.path.append("static/js")
 sys.path.append("static/css")
